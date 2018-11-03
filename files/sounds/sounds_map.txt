@@ -1,0 +1,83 @@
+01 - system
+001 - mac boot sound // first sound of the system
+002 - halo
+003 - starting up  	// begining of boot sequence
+004 - all set		// end of boot sequesnce
+
+02 - clicking noises //	random: C_SND_CLICK,      // jE click: start playing random clicking sound
+001 
+..
+007
+
+03 - Roars
+001 - healing		// random: C_SND_ROAR,       // jW click: start playing random roar
+002 - trophy		// random: C_SND_ROAR,       // jW click: start playing random roar
+003 - roar			// random: C_SND_ROAR,       // jW click: start playing random roar
+004 - snarl			// C_SND_GROAL,      // jW longpress: play graoling sound
+
+04 - equipment
+001 - gun activation			// random: C_GUN_RECAL,      // jS click: turn gun on
+002 - another gun activaton		// random: C_GUN_RECAL,      // jS click: turn gun on
+003 - another gun activaton		// random: C_GUN_RECAL,      // jS click: turn gun on
+103 - aim with a click			// random with follow up: C_GUN_LASER,      // zC click: toggle laser pointer of the gun. one click on, one click off
+104 - continous aiming sound
+105 - aim w/o a click			// random with follow up: C_GUN_LASER,      // zC click: toggle laser pointer of the gun. one click on, one click off
+106 - continous aiming sound	
+107 - soft aiming sound			// random with follow up: C_GUN_LASER,      // zC click: toggle laser pointer of the gun. one click on, one click off
+108 - continous aiming sound
+120 - long aim					C_GUN_TRACK,      // zC long press: turn laser poainter on and track that point with the gun.
+200 - gun shot with a long charging sound	// C_GUN_SHOT,       // zB click: one shot from the gun
+201 - short gun shot for burst sound
+210 - blades out sound
+211 - blades in sound
+240 - power down sound for the gun
+
+
+05 - speaks
+001 - anytime					// C_SND_ANYTIME     // jE dbclick: play "anytime"
+002 - over here, over here		// 
+
+06 - laughs
+001 - laugh						// C_SND_LAUGH,      // jW dbclick: play laugh
+
+99 - testing sounds
+001 - Initiating components testing
+002 - passed
+003 - failed
+004 - unable to connect
+005 - volume
+006 - testing sequence completed. have a nice day.
+010 - short beep
+011 - short double-beep
+015 - short high pitch beep
+016 - long low pitch beep
+019 - error
+071 - minimum
+072 - medium
+073 - maximum
+
+080- counting from 1 to 30
+
+100 - main sound system 
+101 - head microcontroller
+102 - head sound system
+103 - head gyroscope
+104 - head L.E.D's
+
+200 - plasma gun PWM board
+201 - plasma gun horizontal servo motor
+202 - plasma gun vertical servo motor
+203 - plasma gun three color LED
+204 - plasma gun laser pointer
+205 - plasma gun front LED assembly 
+206 - plasma gun blasting sounds
+207 - plasma gun gyroscope
+
+300 - waiting for gauntlet heartbeat
+301 - gauntlet is connected
+302 - gauntlet not detected. Off or out of range
+
+998 - Predator theme
+999 - I am a gummy bear song
+
+
