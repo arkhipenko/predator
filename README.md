@@ -3,3 +3,8 @@
 This repository contains files required to build the costume.
 For the instructions on how to build please visit:
 https://www.instructables.com/id/Interactive-Predator-Costume-With-Head-Tracking-Pl/
+
+
+
+![Predator](https://github.com/arkhipenko/predator/blob/master/files/pictures/predator.jpg)
+
